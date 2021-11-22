@@ -659,9 +659,9 @@ void ShowText()
 {
   arduboy.clear();
   arduboy.setCursor(37, 20);
-  arduboy.print(F("Raycaster"));
+  arduboy.print(F("Squirrel 3D Engine"));
   arduboy.setCursor(10, 28);
-  arduboy.print(F("by John D. Corrado"));
+  arduboy.print(F("Copyright 2021 to 22 Squirrel Enterprises"));
   arduboy.setCursor(7, 36);
   arduboy.print(F("Press A to continue"));
 }
