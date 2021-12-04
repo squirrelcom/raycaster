@@ -647,8 +647,6 @@ void ShowText()
   arduboy.clear();
   arduboy.setCursor(37, 20);
   arduboy.print(F("Squirrel 3D Engine!"));
-  arduboy.setCursor(10, 28);
-  arduboy.print(F("Copyright © 2021,22"));
   arduboy.setCursor(7, 36);
   arduboy.print(F("Press A to continue"));
 }
