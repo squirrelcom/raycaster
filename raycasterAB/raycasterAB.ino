@@ -1,16 +1,3 @@
-// raycasterAB
-// Copyright(C) 2019 John D. Corrado
-//
-// This program is free software; you can redistribute it and/or
-// modify it under the terms of the GNU General Public License
-// as published by the Free Software Foundation; either version 2
-// of the License, or (at your option) any later version.
-//
-// This program is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU General Public License for more details.
-
 #include <Arduboy2.h>
 #include <FixedPoints.h>
 #include <FixedPointsCommon.h>
@@ -659,9 +646,9 @@ void ShowText()
 {
   arduboy.clear();
   arduboy.setCursor(37, 20);
-  arduboy.print(F("Squirrel 3D Engine! For ChipLet Reality"));
+  arduboy.print(F("Squirrel 3D Engine!"));
   arduboy.setCursor(10, 28);
-  arduboy.print(F("Copyright © 2021,22 Squirrel Enterprises"));
+  arduboy.print(F("Copyright © 2021,22"));
   arduboy.setCursor(7, 36);
   arduboy.print(F("Press A to continue"));
 }
